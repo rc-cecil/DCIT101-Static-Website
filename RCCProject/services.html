@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="..\resources\images\rsz_1RCClogo.png" type="image/icon type">
+    <title>Services</title>
+    <link
+      rel="stylesheet"
+      href="../resources/css/bootstrap-4.4.1-dist/css/bootstrap.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../resources/css/bootstrap-4.4.1-dist/css/styles.css"
+    />
+    <script src="../resources/js/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+  <img class="mt-3" src="..\resources\images\rsz_RCClogo.png" alt="Italian Trulli">
+   <nav class="navbar navbar-expand-md navbar-light bg-transparent">
+        
+        <a href="#" class="navbar-brand ml-5">RCC Publications</a>
+        
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="navbarCollapse" class="collapse navbar-collapse">
+          <div class="navbar-nav" style="margin-left: 100px;">
+            <a href="index.html" class="nav-item nav-link ">Home</a>
+            <a href="services.html" class="nav-item nav-link active">Services</a>
+            <a href="about.html" class="nav-item nav-link">About</a>
+        </div>
+        <div class="navbar-nav ml-auto">
+          <button type="button" class="nav-item nav-link" style="background: transparent; border: transparent;" data-toggle="modal" data-target="#contactModal">Contact</button>
+          <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="contactModalLabel">Contact Us</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                    <span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                  <div class="row">
+                    <p class="p-3"><b>E-mail : </b></p>
+                  </div>
+                  <div class="row">
+                    <p class="p-3"><b> Phone : </b></p>
+                    
+                  </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </nav>
+      
+  
+  <div class="container-fluid">
+    <hr/>
+    <div id="services" class="container">
+      <h2>services</h2>
+      <p>We offer the following services</p>
+      <div class="row">
+          <div class="row mx-auto mb-4">
+            <div class="col-4-lg ml-3">
+              <div id="service_1" class="card" style="width: 18rem;">
+                <img
+                  class="card-img-top"
+                  src="../resources/images/imageTop.jpg"
+                  alt="Card image cap"
+                  style="height:40vh ;"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Design</h5>
+                  Ut at nulla in leo venenatis eleifend a vitae purus.
+                  <div class="collapse" id="collapseDesign">
+                    <p class="card-text"> Quisque suscipit eget nulla eget feugiat. Morbi vestibulum luctus varius. Nunc nec magna ipsum. Pellentesque efficitur finibus commodo. Mauris tincidunt aliquam congue. Integer sit amet sagittis dui. Nam dictum, erat et molestie suscipit, arcu ex imperdiet arcu, vel molestie justo mauris in risus. Quisque eu semper urna.</p>
+                  </div>
+                </div>
+                <div class="card-footer" style="border-top: 0vh;">
+                  <button id="cardButton" onclick="cardText()" class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseDesign" aria-expanded="false" aria-controls="collapseDesign">
+                    Read more
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-4-lg ml-3">
+              <div id="service_2" class="card" style="width: 18rem;">
+                <img
+                  class="card-img-top"
+                  src="../resources/images/imageTop.jpeg"
+                  alt="Card image cap"
+                  style="height:40vh ;"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Printing</h5>
+                  Donec a leo vitae magna dignissim scelerisque.
+                  <div class="collapse" id="collapsePrinting">
+                    <p class="card-text"> In efficitur sodales dapibus. Proin mauris magna, venenatis non dictum in, convallis at nulla. Vivamus augue purus, porttitor in turpis aliquam, suscipit gravida sapien. Pellentesque ultrices tortor vel risus pharetra, id pellentesque metus tempus. Quisque condimentum quis lacus eu mollis. Suspendisse ut est id dui fringilla aliquet a eu odio. Vestibulum cursus nisi id mi mattis iaculis.</p>
+                  </div>
+                </div>
+                <div class="card-footer" style="border-top: 0vh;">
+                  <button id="cardButton1" class="btn btn-info" onclick="cardText1()" type="button" data-toggle="collapse" data-target="#collapsePrinting" aria-expanded="false" aria-controls="collapsePrinting">
+                 Read more
+                  </button>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+        
+     <div class="row mx-auto">
+      <div class="col-4-lg ml-3">
+        <div id="service_3" class="card" style="width: 18rem;">
+          <img
+            class="card-img-top"
+            src="../resources/images/download (2).jfif"
+            alt="Card image cap"
+            style="height:40vh ;"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Photography</h5>
+            Sed lacus mi, fringilla ut turpis id, egestas mattis dolor.
+            <div class="collapse" id="collapsePhotography">
+              <p class="card-text"> Quisque pharetra elementum quam, in faucibus odio faucibus vel. Vivamus tincidunt, lacus nec maximus aliquam, dolor turpis porttitor nisl, vel eleifend felis arcu id nibh. Cras congue et est eu ultricies. In mattis libero in tortor aliquam accumsan. Aenean volutpat vel ex a vehicula. Suspendisse dolor risus, porta sit amet ornare in, vestibulum at magna. Quisque consequat congue erat et interdum. Quisque hendrerit odio sit amet libero porta euismod. Mauris odio arcu, iaculis non est non, accumsan porttitor tortor. Donec facilisis urna efficitur, suscipit nisi sed, facilisis purus. Nam auctor ultricies lectus sit amet blandit. Sed dapibus fringilla tortor quis commodo. </p>
+            </div>
+          </div>
+          <div class="card-footer" style="border-top: 0vh;">
+            <button id="cardButton2" class="btn btn-info" onclick="cardText2()" type="button" data-toggle="collapse" data-target="#collapsePhotography" aria-expanded="false" aria-controls="collapsePhotography">
+           Read more
+            </button>
+          </div>
+        </div>
+        
+      </div>
+      <div class="col-4-lg ml-3">
+        <div id="service_4" class="card" style="width: 18rem;">
+          <img
+            class="card-img-top"
+            src="../resources/images/download (3).jfif"
+            alt="Card image cap"
+            style="height:40vh ;"
+          />
+          <div class="card-body">
+            <h5 class="card-title">others</h5>
+            Nulla iaculis blandit semper. Aenean luctus tempor erat. 
+            <div class="collapse" id="collapseOthers">
+              <p class="card-text">  Ut elementum turpis vel ligula efficitur fringilla. Suspendisse sagittis elementum nulla, sit amet ultrices eros facilisis at. Donec ultrices, dui quis pharetra vulputate, enim nunc interdum nunc, vitae elementum arcu diam in sapien. Mauris hendrerit mauris orci, vel pretium libero pharetra in. Praesent sit amet leo nec elit mattis tempus eget id dui. Cras facilisis est ut ex mollis fermentum. Etiam a feugiat nisi, vitae volutpat diam. Aliquam sed varius ligula. Vestibulum vulputate viverra ornare.Proin maximus metus ut suscipit suscipit. Nam et sagittis sapien, sit amet feugiat turpis. Curabitur hendrerit orci eget urna faucibus, vitae laoreet diam pharetra. </p>
+            </div>
+          </div>
+          <div class="card-footer" style="border-top: 0vh;">
+            <button id="cardButton3" class="btn btn-info" onclick="cardText3()" type="button" data-toggle="collapse" data-target="#collapseOthers" aria-expanded="false" aria-controls="collapseOthers">
+           Read more
+            </button>
+          </div>
+        </div>
+      </div>
+     </div>
+        </div>
+      </div>
+      <hr/>
+      </div>
+      <div class="footer p-4" style="background:transparent; height: 100px; color: black;">
+        
+        © RCC Publications 2020 | 
+       
+    </div>
+          <script>
+            $(document).ready(function() {
+              $(".col-4-lg").hover(
+                //trigger when mouse hovers
+                function() {
+                  $(this).animate(
+                    {
+                      marginTop:"-=3%"
+                    },
+                    200
+                  );
+                },
+                //trigger when mouse out
+                function() {
+                  $(this).animate(
+                    {
+                      margin: "0%"
+                    },
+                    200
+                  );
+                }
+              );
+            });
+          </script>
+          <script src="../resources/js/index.js"></script>
+          <script src="../resources/js/bootstrap.min.js"></script>
+</body>
+</html>
